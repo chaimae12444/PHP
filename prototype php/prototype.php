@@ -60,11 +60,5 @@ if(isset($_POST['calc'])){
     }
 }
 ?>
-$libelle = [
-    "+" => "Addition",
-    "-" => "Soustraction",
-    "*" => "Multiplication",
-    "/" => "Division"
-];
-$res = $libelle[$op] . " = $resultat";
+
 

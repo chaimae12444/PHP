@@ -12,7 +12,7 @@
     <button type="submit" name="calc">Calculer</button>
 
     <br><br>
-    <input type="text" readonly value="<?php if(isset($res)) echo $res; ?>">
+
 </form>
 <?php
 
@@ -67,3 +67,4 @@ $libelle = [
     "/" => "Division"
 ];
 $res = $libelle[$op] . " = $resultat";
+
